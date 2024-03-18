@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+    background: linear-gradient(45deg, #0095e0, #010ae1, #3800dc, #8b00e0);
+  -webkit-background-clip: text;
+  color: transparent;
+  height: max-content;
+  inline-size: 1000px;
+  overflow: hidden;
+  text-wrap: wrap;
+  text-align: center;
+  font-size: 8em;
+  animation: roda infinite ease-out 0s;
+  filter: drop-shadow(0px 0px 50px rgb(146, 0, 0));
+  &::selection {
+    background-color: black;
+  }
+}
+
